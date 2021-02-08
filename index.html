@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galactic Age</title>
+</head>
+<body>
+  <img class="space" src="img/space.jpeg" style="height: 100vh; width: 100vw;">
+  <div id="monkey">
+    <img class id="monkey" src="img/pngegg.png" style="height:80vh ;">
+    <form id="user-info">
+      <h1>SPACE MONKEY MATH</h1>
+      <h2>Enter your Credentials</h2>
+      <div class="form-group">
+        <input id="age" type="number" placeholder="Age">
+      </div>
+      <div class="radio">
+        <h3>Do you eat well?</h3>
+        <div id="diet">
+          <label>
+            <input type="radio" name="diet" value="true">
+            Yes
+          </label>
+          <label>
+            <input type="radio" name="diet" value="false" checked>
+            No
+          </label>
+        </div>
+        <h3>Do you exercise regularly?</h3>
+        <div id="exercise">
+          <label>
+            <input type="radio" name="exercise" value="true">
+            Yes
+          </label>
+          <label>
+            <input type="radio" name="exercise" value="false" checked>
+            No
+          </label>
+        </div>
+        <h3>Do you wear a seatbelt while in a car?</h3>
+        <div>
+          <label>
+            <input type="radio" name="seatbelt" value="true">
+            Yes
+          </label>
+          <label>
+            <input type="radio" name="seatbelt" value="false" checked>
+            No
+          </label>
+        </div>
+        <div>
+          <h3>Do you smoke?</h3>
+          <label>
+            <input type="radio" name="smoke" value="true">
+            Yes
+          </label>
+          <label>
+            <input type="radio" name="smoke" value="false" checked>
+            No
+          </label>
+        </div>
+        <div>
+          <h3>Do you drink excessively?</h3>
+          <label>
+            <input type="radio" name="drink" value="true">
+            Yes
+          </label>
+          <label>
+            <input type="radio" name="drink" value="false" checked>
+            No
+          </label>
+        </div>
+        <button type="submit" class="button" id="submit">Submit!</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div id="planets">
+    <div class="container">
+      <img src="img/mercury.png" id="mercury">
+      <div class="middle">
+        <div class="mercury-text"></div>
+      </div>
+    </div>
+    <div class="container">
+      <img src="img/venus.png" id="venus">
+      <div class="middle">
+        <div class="venus-text"></div>
+      </div>
+    </div>
+    <div class="container">
+      <img src="img/earth.png" id="earth">
+      <div class="middle">
+        <div class="earth-text"></div>
+      </div>
+    </div>
+    <div class="container">
+      <img src="img/mars.png" id="mars">
+      <div class="middle">
+        <div class="mars-text"></div>
+      </div>
+    </div>
+    <div class="container">
+      <img src="img/jupiter.png" id="jupiter">
+      <div class="middle">
+        <div class="jupiter-text"></div>
+      </div>
+    </div>
+    
+    <button type="submit" class="button" id="back">Go Back!</button>
+    
+  </div>
+</body>
+</html>
